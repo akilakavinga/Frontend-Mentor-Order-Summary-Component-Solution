@@ -13,7 +13,6 @@
     @use "$lib/styles" as *;
     section {
         @include flexCol;
-        position: fixed;
         bottom: 5.5%;
         font-size: 0.8rem;
         line-height: 20px;
@@ -21,6 +20,7 @@
         color: $desaturatedBlue;
         padding: 0.6rem 2.2rem;
         border-radius: 1rem;
+        margin: 1rem 0 0;
 
         a {
             color: white;
