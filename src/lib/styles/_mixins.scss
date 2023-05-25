@@ -1,0 +1,19 @@
+@use './constants' as *;
+
+@mixin flexCol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@mixin flexRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+@mixin mqPhone {
+    @media (width <= $mobile) {
+        @content;
+    }
+}
